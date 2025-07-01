@@ -56,18 +56,17 @@ Animals are amazing!
   - Pexels
     - High quality pictures/videos?
   - Stock Market?
-
-
-## Page Ideas
-- Category
+<br/><br/>
+- Categories
   - Animal
     - Specific Animal
   - Environment / Biome
     - Ocean
     - Forest
     - Desert
-  - Companies / Organizations
-    - 
+  - Sponsors
+    - Companies
+    - Organizations
   - 
     - 
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Category Page</div>
+    <div>Forest Page</div>
   )
 }
 
