@@ -1,5 +1,5 @@
 
-import Sidebar from "@/components/Sidebar";
+import ActualSidebar from "@/components/ActualSidebar";
 import Navbar from "@/components/Navbar";
 
 interface DashboardLayout{
@@ -13,9 +13,11 @@ const DashboardLayout = ({ children }: DashboardLayout) => {
       <div className="flex w-full h-full">
 
         {/* Left Side */}
+        {/* 
         <div className="bg-green-800 fixed left-0 top-0 hidden lg:block lg-w-[270px] h-full overflow-y-auto">
-          <Sidebar />
-        </div>
+          <ActualSidebar />
+        </div> 
+        */}
 
         {/* Right Side */}
         <div className="bg-blue-800 lg:pl-[270px] w-full">
