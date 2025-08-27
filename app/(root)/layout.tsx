@@ -22,9 +22,6 @@ const DashboardLayout = ({ children }: DashboardLayout) => {
         {/* Right Side */}
         <div className="bg-blue-800 lg:pl-[270px] w-full">
           <div className="mx-auto max-w-screen-2xl h-full">
-
-            <Navbar />
-
             <main className="h-full py-8 px-6 flex flex-col">
               {children}
             </main>
