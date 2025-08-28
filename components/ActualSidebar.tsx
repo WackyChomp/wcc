@@ -1,5 +1,5 @@
 import React from 'react'
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { SidebarItems } from '@/constants'
  
 import {
   Sidebar,
@@ -12,33 +12,6 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 
-const items = [
-  {
-    title: "Home",
-    url: "#",
-    icon: Home,
-  },
-  {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
-  },
-  {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
-  },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
-  },
-]
 
 const ActualSidebar = () => {
   return (
@@ -48,7 +21,7 @@ const ActualSidebar = () => {
           <SidebarGroupLabel>WCC</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {items.map((item) => (
+              {SidebarItems.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
                     <a href={item.url}>
