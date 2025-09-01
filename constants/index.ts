@@ -48,7 +48,7 @@ export const NavbarItems = [
 export const SidebarItems = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
@@ -58,7 +58,7 @@ export const SidebarItems = [
   },
   {
     title: "Calendar",
-    url: "#",
+    url: "/calendar",
     icon: Calendar,
   },
   {
