@@ -38,7 +38,9 @@ function ListItem({
 const Navbar = () => {
   return (
     <div className='bg-yellow-600 flex justify-center gap-5'>
-      <h1 className='text-4xl'>Navbar</h1>
+      <span className='bg-green-900 hover:bg-green-500 text-4xl cursor-pointer'>
+        <Link href='/'>WWC</Link>
+      </span>
       <NavigationMenu viewport={false}>
         <NavigationMenuList>
           <NavigationMenuItem>
