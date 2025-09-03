@@ -3,6 +3,13 @@ import React from 'react'
 
 import { Calendar } from "@/components/ui/calendar"
 import { Label } from "@/components/ui/label"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 
 
 const ActualCalendar = () => {
@@ -29,6 +36,27 @@ const ActualCalendar = () => {
         <Label htmlFor="dropdown" className="px-1">
           Dropdown
         </Label>
+        <Select
+          value={dropdown}
+          onValueChange={(value) =>
+            setDropdown(
+              value as React.ComponentProps<typeof Calendar>["captionLayout"]
+            )
+          }
+        >
+          <SelectTrigger
+            id="dropdown"
+            size="sm"
+            className="bg-background w-full"
+          >
+            <SelectValue placeholder="Dropdown" />
+          </SelectTrigger>
+          <SelectContent align="center">
+            <SelectItem value="dropdown">Month and Year</SelectItem>
+            <SelectItem value="dropdown-months">Month Only</SelectItem>
+            <SelectItem value="dropdown-years">Year Only</SelectItem>
+          </SelectContent>
+        </Select>        
       </div>
     </div>
   )
