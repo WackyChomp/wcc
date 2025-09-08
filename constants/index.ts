@@ -52,8 +52,8 @@ export const SidebarItems = [
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
+    title: "Partners",
+    url: "/partners",
     icon: Inbox,
   },
   {
@@ -74,8 +74,7 @@ export const SidebarItems = [
 ]
 
 
-
-export const Payment = [
+export const data: Payment[] = [
   {
     id: "x9a7b2c1",
     amount: 1543,

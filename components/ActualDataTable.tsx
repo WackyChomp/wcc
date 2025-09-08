@@ -16,7 +16,7 @@ import {
 import { ArrowUpDown, ChevronDown, MoreHorizontal } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-//import { Checkbox } from "@/components/ui/checkbox"
+import { Checkbox } from "@/components/ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -36,7 +36,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-import { Payment } from "@/constants"
+import { data } from "@/constants"
 
 
 export const columns: ColumnDef<Payment>[] = [
