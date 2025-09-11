@@ -74,6 +74,30 @@ export const SidebarItems = [
 ]
 
 
+export const CarouselImageSetOne = [
+  {
+    url: "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg",
+  },
+  {
+    url: "https://images.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg",
+  },
+  {
+    url: "https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg",
+  },
+  {
+    url: "https://i.natgeofe.com/n/c0e0a134-3e97-4b8f-9f7b-9d11f5e1bf02/comedy-wildlife-awards-squirel-stop.jpg",
+  },
+  {
+    url: "https://i.pinimg.com/736x/9a/e8/55/9ae855835479ca2d345b60d72e057374.jpg",
+  },
+
+  // {
+  //   url: "",
+  // },
+
+];
+
+
 export const data: Payment[] = [
   {
     id: "x9a7b2c1",

@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -35,11 +34,12 @@ const ActualCarousel = () => {
     <div className="mx-auto max-w-xs">
       <Carousel setApi={setApi} className="w-full max-w-xs">
         <CarouselContent>
-          {Array.from({ length: 10 }).map((_, index) => (
+          {Array.from({ length: 20 }).map((_, index) => (
             <CarouselItem key={index}>
-              <Card>
+              <Card className="bg-red-900">
                 <CardContent className="flex aspect-square items-center justify-center p-6">
                   <span className="text-4xl font-semibold">{index + 1}</span>
+                  <img src={''} alt="" />
                 </CardContent>
               </Card>
             </CarouselItem>
@@ -48,7 +48,7 @@ const ActualCarousel = () => {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <div className="text-muted-foreground py-2 text-center text-sm">
+      <div className="bg-red-950 text-red-600 py-2 text-center text-sm">
         Slide {current} of {count}
       </div>
     </div>
