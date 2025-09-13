@@ -160,3 +160,128 @@ export const data: Payment[] = [
     email: "michael.ross@uber.com",
   },
 ]
+
+
+
+export const animalSpecies = [
+  {
+    commonName: "African Elephant",
+    conservationStatus: "Endangered",
+    population: 415000,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Blue Whale",
+    conservationStatus: "Endangered",
+    population: 10000,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Bald Eagle",
+    conservationStatus: "Least Concern",
+    population: 316000,
+    animalType: "Bird"
+  },
+  {
+    commonName: "Komodo Dragon",
+    conservationStatus: "Endangered",
+    population: 3000,
+    animalType: "Reptile"
+  },
+  {
+    commonName: "Axolotl",
+    conservationStatus: "Critically Endangered",
+    population: 1000,
+    animalType: "Amphibian"
+  },
+  {
+    commonName: "Snow Leopard",
+    conservationStatus: "Vulnerable",
+    population: 4000–6500,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Giant Anteater",
+    conservationStatus: "Vulnerable",
+    population: Unknown,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Red Kangaroo",
+    conservationStatus: "Least Concern",
+    population: 11.5e6,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Emperor Penguin",
+    conservationStatus: "Near Threatened",
+    population: 595000,
+    animalType: "Bird"
+  },
+  {
+    commonName: "Orangutan",
+    conservationStatus: "Critically Endangered",
+    population: 119000 (combined species),
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Green Sea Turtle",
+    conservationStatus: "Endangered",
+    population: 85000–90000 nesting females,
+    animalType: "Reptile"
+  },
+  {
+    commonName: "Fennec Fox",
+    conservationStatus: "Least Concern",
+    population: Unknown (stable),
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Poison Dart Frog",
+    conservationStatus: "Varies by species",
+    population: Unknown,
+    animalType: "Amphibian"
+  },
+  {
+    commonName: "Narwhal",
+    conservationStatus: "Least Concern",
+    population: 170000,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Tasmanian Devil",
+    conservationStatus: "Endangered",
+    population: 10000–25000,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Sloth Bear",
+    conservationStatus: "Vulnerable",
+    population: ~20000,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Shoebill Stork",
+    conservationStatus: "Vulnerable",
+    population: 3300–5300,
+    animalType: "Bird"
+  },
+  {
+    commonName: "Okapi",
+    conservationStatus: "Endangered",
+    population: <4500,
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Pangolin",
+    conservationStatus: "Critically Endangered",
+    population: Unknown (declining rapidly),
+    animalType: "Mammal"
+  },
+  {
+    commonName: "Maned Wolf",
+    conservationStatus: "Near Threatened",
+    population: ~17000,
+    animalType: "Mammal"
+  }
+];
