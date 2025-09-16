@@ -197,13 +197,13 @@ export const animalSpecies = [
   {
     commonName: "Snow Leopard",
     conservationStatus: "Vulnerable",
-    population: 4000–6500,
+    population: 5200,      // 4000–6500
     animalType: "Mammal"
   },
   {
     commonName: "Giant Anteater",
     conservationStatus: "Vulnerable",
-    population: Unknown,
+    population: "Unknown",      // unknown
     animalType: "Mammal"
   },
   {
@@ -221,25 +221,25 @@ export const animalSpecies = [
   {
     commonName: "Orangutan",
     conservationStatus: "Critically Endangered",
-    population: 119000 (combined species),
+    population: 119000,      // 119000 (combined species)
     animalType: "Mammal"
   },
   {
     commonName: "Green Sea Turtle",
     conservationStatus: "Endangered",
-    population: 85000–90000 nesting females,
+    population: 87000,      // 85000–90000 nesting females
     animalType: "Reptile"
   },
   {
     commonName: "Fennec Fox",
     conservationStatus: "Least Concern",
-    population: Unknown (stable),
+    population: "Unknown",     // Unknown (stable)
     animalType: "Mammal"
   },
   {
     commonName: "Poison Dart Frog",
     conservationStatus: "Varies by species",
-    population: Unknown,
+    population: "Unknown",        // Unkown
     animalType: "Amphibian"
   },
   {
@@ -251,7 +251,7 @@ export const animalSpecies = [
   {
     commonName: "Tasmanian Devil",
     conservationStatus: "Endangered",
-    population: 10000–25000,
+    population: 18000,      // 10000–25000
     animalType: "Mammal"
   },
   {
@@ -263,19 +263,19 @@ export const animalSpecies = [
   {
     commonName: "Shoebill Stork",
     conservationStatus: "Vulnerable",
-    population: 3300–5300,
+    population: 4300,      // 3300–5300
     animalType: "Bird"
   },
   {
     commonName: "Okapi",
     conservationStatus: "Endangered",
-    population: <4500,
+    population: 4200,      // <4500
     animalType: "Mammal"
   },
   {
     commonName: "Pangolin",
     conservationStatus: "Critically Endangered",
-    population: Unknown (declining rapidly),
+    population: "Unknown",      // Unknown (declining rapidly)
     animalType: "Mammal"
   },
   {
