@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ActualCarousel from "@/components/ActualCarousel";
 import FAQ from "@/components/FAQ";
+import ActualDialog from "@/components/ActualDialog";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       </section>
 
       <FAQ />
+
+      <ActualDialog />
     </div>
   );
 }
